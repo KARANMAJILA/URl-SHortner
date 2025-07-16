@@ -9,9 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 
 
-app.use(cors({
-  origin: 'http://localhost:5173', // ✅ frontend port
-}));
+app.use(cors()); // ✅ allows all origins
+
 app.use(express.json());
 
 app.use("/", require("./routes/UrlRoutes"));
