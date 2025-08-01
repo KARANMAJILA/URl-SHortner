@@ -8,6 +8,7 @@ import api from '../services/Api';
 
 const UrlShortener = () => {
   const [url, setUrl] = useState('');
+  // eslint-disable-next-line no-unused-vars
   const [shortUrl, setShortUrl] = useState('');
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);

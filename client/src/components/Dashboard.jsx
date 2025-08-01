@@ -48,6 +48,7 @@ const Dashboard = () => {
     toast.success('Dashboard refreshed!');
   };
 
+  // eslint-disable-next-line no-unused-vars
   const handleCopy = (url) => {
     toast.success('URL copied to clipboard!');
   };

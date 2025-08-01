@@ -23,6 +23,7 @@ const UrlStats = () => {
 
   useEffect(() => {
     fetchStats();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [code]);
 
   const fetchStats = async () => {
